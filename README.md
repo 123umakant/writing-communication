@@ -45,12 +45,14 @@ They use packet filtering to identify the threats by analyzing source and destin
 ```
 | Permission        | IP Address           | Protocols  | Destination  | Port  |
 | ------------- |:-------------:|:-------------:|:-------------:| -----:|
-| Allow      | 162.213.214.14 | TCP | 10. | $1600 |
-| Allow      | centered      |   $12 |$12 |$12 |
-| Deny | are neat      |    $1 |$12 |$12 |
-| Deny | are neat      |    $1 |$12 |$12 |
-| Deny | are neat      |    $1 |$12 |$12 |
-| Deny | are neat      |    $1 |$12 |$12 |
+| Allow      | 162.213.214.14 | TCP | 10.10.10.2 | 80 |
+| Allow      | 154.21.66.112      |   TCP |ANY |80 |
+| Deny | 192.168.1.1      |    TCP |ANY|80 |
+| Deny | ANY      |    TCP |ANY |80 |
+| Allow | ANY      |    TCP |ANY | 80|
+| Deny | ANY      |    TCP |ANY |23 |
+| Deny | 255.255.255.0      |    UDP |10.10.10.1 |25 |
+| Allow | 10.10.0.1      |    TCP |ANY |110 |
 ```
 ```
 ## Attack Detection
