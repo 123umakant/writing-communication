@@ -55,5 +55,21 @@ They use packet filtering to identify the threats by analyzing source and destin
 | Allow | 10.10.0.1      |    TCP |ANY |110 |
 ```
 ```
+
+
 ## Attack Detection
-![alt text](attack.png "Logo Title Text 1")
+In this image, we can clearly see that 51 requests are received in just 28 seconds, which is unusual that can be easily identified.
+![alt text](attack.png "Attack Detection")
+## Conclusion
+*  Keep your software updated, Use antivirus for protections never disable your firewall.
+*  If you have more defensive lines then it is harder for the attacker to penetrate into the network.
+*  Always use genuine software and always buy them from authorized portals.
+*  Never Share Your network-related information to anyone.
+*  A firewall protects you from any threats and unauthorized access.
+
+## References
+1. [https://www.youtube.com/watch?v=eO6QKDL3p1I&list=PLBbU9-SUUCwV7Dpk7GI8QDLu3w54TNAA6](https://www.youtube.com/watch?v=eO6QKDL3p1I&list=PLBbU9-SUUCwV7Dpk7GI8QDLu3w54TNAA6).
+2. [https://www.youtube.com/watch?v=kDEX1HXybrU](https://www.youtube.com/watch?v=kDEX1HXybrU).
+3. [https://blog.eccouncil.org/everything-you-need-to-know-about-firewalls-and-everything-to-avoid/](https://blog.eccouncil.org/everything-you-need-to-know-about-firewalls-and-everything-to-avoid/)
+4. [https://www.swissns.ch/site/2016/11/the-role-played-by-a-firewall-in-network-security/](https://www.swissns.ch/site/2016/11/the-role-played-by-a-firewall-in-network-security/)
+5. [https://www.controleng.com/articles/firewall-functions-and-roles-for-company-security/](https://www.controleng.com/articles/firewall-functions-and-roles-for-company-security/)
