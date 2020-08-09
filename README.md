@@ -16,12 +16,12 @@ A firewall eliminates hackers and threats. It protects the network and systems f
 
 firewall uses a combination of **three** sets of rules to filter out the data packets.
 
-### Packet filtering
+#### Packet filtering
 In packets filtering, a firewall uses the basic sets of predefined rules set by the administrator. If the data packets satisfy the conditions, then only they are allowed in a private network. 
-### Proxy service
+#### Proxy service
 A proxy is an application that operates on the application layer of the OSI model.
 In proxy service, both client and server are connected to a session and thus centralize all information transfer for an activity to the firewall for scanning.
-### Stateful inspection
+#### Stateful inspection
 
 This is the most modern method for the prevention of unauthorized access. It does not rely on intensive memory inspection.
 
@@ -30,10 +30,10 @@ In stateful inspection, it holds the information of an incoming and outgoing req
 ##  Types of firewall
 
 There are **two** types of firewalls.
-### Host-based firewall
+#### Host-based firewall
 In a host-based firewall, the software is being installed in a device and it only protects that device.
 Usually, they come with software like antivirus, operating systems, and third-party applications.
-### Network-based firewall
+#### Network-based firewall
 They are installed on the network.
 They protect the whole network of any malicious activity and threats.
 They use packet filtering to identify the threats by analyzing source and destination IP addresses and port numbers.
@@ -60,6 +60,7 @@ They use packet filtering to identify the threats by analyzing source and destin
 ## Attack Detection
 In this image, we can clearly see that 51 requests are received in just 28 seconds, which is unusual that can be easily identified.
 ![alt text](attack.png "Attack Detection")
+
 ## Conclusion
 *  Keep your software updated, Use antivirus for protections never disable your firewall.
 *  If you have more defensive lines then it is harder for the attacker to penetrate into the network.
