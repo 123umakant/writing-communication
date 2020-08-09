@@ -40,7 +40,7 @@ They use packet filtering to identify the threats by analyzing source and destin
 
 
 ## Access control list
-
+**The access control list is managed by the network administrator. The rules can be modified as per requirement.**
 ```
 ```
 | Permission        | IP Address           | Protocols  | Destination  | Port  |
