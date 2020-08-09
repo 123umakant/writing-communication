@@ -59,6 +59,8 @@ They use packet filtering to identify the threats by analyzing source and destin
 
 ## Attack Detection
 In this image, we can clearly see that 51 requests are received in just 28 seconds, which is unusual that can be easily identified.
+
+
 ![alt text](attack.png "Attack Detection")
 
 ## Conclusion
